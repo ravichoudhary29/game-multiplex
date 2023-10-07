@@ -16,7 +16,12 @@ function App() {
       <Show above="lg">
         <GridItem area="aside">Aside</GridItem>
       </Show>
-      <GridItem area="main">
+      <GridItem
+        area="main"
+        display="flex"
+        alignItems="center"
+        justifyContent="center"
+      >
         <GameGrid />
       </GridItem>
     </Grid>
